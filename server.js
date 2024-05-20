@@ -1,6 +1,7 @@
 import app from './app.js';
 import cloudinary from 'cloudinary';
 
+const cors = require('cors');
 app.use(cors (
     {
         origin : ["https://doc-booker-front-end.vercel.app/"],
