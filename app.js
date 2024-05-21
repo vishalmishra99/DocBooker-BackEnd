@@ -13,7 +13,7 @@ const app = express();
 config({ path: "./config/config.env" });
 
 app.use(cors({
-    origin: ["https://doc-booker-front-end.vercel.app/", "https://doc-booker-dashboard.vercel.app/login"],
+    origin: ["https://doc-booker-front-end.vercel.app", "https://doc-booker-dashboard.vercel.app/login"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
  })
